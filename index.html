@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Porfolio</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+  <!--- From Fontawesome.com-->
+  <script src="https://kit.fontawesome.com/af533277a0.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/Aiza log.png" class="logo">
+
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        
+      </nav>
+      <div class="header-text">
+        <p>Computer Secretarial</p>
+        <h1>Hi, I'm <span> Aiza Lomerio </span><br> From Philippines</h1>
+      </div>
+    </div>
+  </div>
+
+<!-------------------------About Me------------------------>
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/Aiza.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>A hardworking, well-mannered, friendly and knowledgeable person with a positive attitude. Efficient cashier with 3+ years of valid experience. Proven history of carefully managing funds to reduce discrepancies and an efficient administrative record. Able to work independently without much supervision on assigned work scope. Pro-active with ability to solve issues.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('educations')">Educations</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>HTML</span><br>Basic Web Development</li>
+            <li><span>Microsoft Office</span><br>knowledgeable in Microsoft Office</li>
+            <li><span>Stenography</span><br>Takes and transcribes stenographic notes</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2022 - 2023</span><br>Cashier at Supervalue Inc.</li>
+            <li><span>2022</span><br>Staff 1 at H.R.D. Singapore Pte Ltd</li>
+            <li><span>2017 - 2020</span><br>Branch Cashier at Maise Inc.</li>
+            <li><span>2010 - 2016</span><br>Finance Analyst at Asiapro Cooperative</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="educations">
+          <ul>
+            <li><span>2009</span><br>Computer Secretarial from Gateways Institute of Science and Technology</li>
+          </ul>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------services------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Cashier</h2>
+          <p>Responsible for scanning items, processing cash, debit, credit and check transactions using a cash register or other point-of-sale system in a retail environment. Ensure all transactions run smoothly and help maximize customer satisfaction. Collecting payment, counting the money from the cash drawer, comparing receipts with revenues. Answered customer questions and resolved service issues in a timely manner.</p>
+          <a href="#">Learn more</a>
+        </div>
+
+        <div>
+          <i class="fa-sharp fa-solid fa-crop"></i>
+          <h2>Office Staff</h2>
+          <p>Basic knowledge in Japanese Alphabet – Hiragana, Katakana and Kanji. Familiarize with Japanese Houses. Accomplish design details, layouts and calculations using a “Walk in Home Plus” (Japanese software). Designs foundation for a Floor Plan.</p>
+          <a href="#">Learn more</a>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>Finance Analyst</h2>
+          <p>Address and resolves client questions and issues relating to invoices, and providing regular, accurate reports of billing data. Analyze financial data, prepare reports and projections.</p>
+          <a href="#">Learn more</a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!------------Portfolio-------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+
+      <div class="work-list">
+
+        <div class="work">
+          <img src="images/maprio.png">
+          <div class="layer">
+            <h3>Online Selling</h3>
+            <p>Selling a classy Perfume in an affordable price. Oil based perfumes version of your favorite designer perfumes same scent, same quality. Can be for personal Use, gifts, souvenirs, or additional income.</p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="images/cashier1.png">
+        <div class="layer">
+            <h3>Cashier</h3>
+            <p>Greet customers, taking orders, itemizing and totaling customers' purchases. Answered customer questions and resolved service issues in a timely manner.</p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="images/projectbased.png">
+          <div class="layer">
+            <h3>Project-based Encoder</h3>
+            <p>Encodes billing of the Clients into the data system. Prepare, compile and sort necessary documents for data entry. Ensure the records and other documents are filed properly.</p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="btn">See more</a>
+
+    </div>
+  </div>
+
+<!----------Contact----------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i><a href="https://accounts.google.com/">aiz.lomerio@gmail.com</a></p>
+        <p><i class="fa-solid fa-phone-volume"></i>(+63) 9951469238</p>
+
+        <div class="social-icon">
+          <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://www.linkedin.com/login/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="images/AIZA B. LOMERIO.pdf" download class="btn btn2">Download CV</a>
+      </div>
+
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright @ Aiza Lomerio <i class="fa-regular fa-copyright"></i>ompany</p>
+  </div>
+</div>
+
+  <!---adding java script for tab-links & tab-content-->
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    <!-------defining the content of opentab---->
+     function opentab(tabname){
+      for (tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+
+      for (tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+
+     }
+  </script>
+  <!---- adding java script for menu---->
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+<!-----Saving Form to google sheet------>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwi0Pcz78KQSzTYomd5hqJiP0Cg-wOUdpdQJGxFZUEO5HVU9ko-yUf9I0QYZ5ZSgXsAwg/exec'
+
+ /*--------submit-to-google-sheet must added to the form------*/
+    const form = document.forms['submit-to-google-sheet']
+
+  /*--------pop-up message success---------*/
+  const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>
